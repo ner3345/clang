@@ -1,8 +1,6 @@
 #include <stdlib.h>
-#include <stdio.h>
-#include <unistd.h>
-#include <sys/socket.h>
-#include <netinet/in.h>
+#include <stdio.h> 
+#include <winsock2.h>
 #include <string.h>
 int main(int argv,char *argc[]){
 	//if(argv<2){
