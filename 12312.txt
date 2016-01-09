@@ -1,0 +1,33 @@
+- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil {
+    if ((self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil])) {
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(willBeginBannerViewActionNotification:) name:BannerViewActionWillBegin object:nil];
+        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didFinishBannerViewActionNotification:) name:BannerViewActionDidFinish object:nil];
+    }
+    return self;
+}
+
+- (void)willBeginBannerViewActionNotification:(NSNotification *)notification
+{
+    NSLog(@"willBeginBannerViewActionNotification");
+}
+  
+- (void)didFinishBannerViewActionNotification:(NSNotification *)notification
+{
+    NSLog(@"didFinishBannerViewActionNotification");
+}
+
+- (void)willBeginBannerViewActionNotification:(NSNotification *)notification
+{
+    HelloWorld *layer = (HelloWorld *)(CCDirector::sharedDirector()->getRunningScene()->getChildByTag(1));
+    if (layer != NULL) {
+        layer->willBeginBannerViewActionNotification();
+    }
+}
+ 
+- (void)didFinishBannerViewActionNotification:(NSNotification *)notification
+{
+    HelloWorld *layer = (HelloWorld *)(CCDirector::sharedDirector()->getRunningScene()->getChildByTag(1));
+    if (layer != NULL) {
+        layer->didFinishBannerViewActionNotification();
+    }
+}
