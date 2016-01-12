@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>frames</key>
+        <dict>
+            <key>cashBox.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{301,59}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <false/>
+                <key>sourceColorRect</key>
+                <string>{{2,2},{301,59}}</string>
+                <key>sourceSize</key>
+                <string>{305,63}</string>
+            </dict>
+        </dict>
+        <key>metadata</key>
+        <dict>
+            <key>format</key>
+            <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>cashBox.png</string>
+            <key>size</key>
+            <string>{305,63}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:1875df3e7e21c0f1e9160adc852cc696:43f2b9e0e4c3979d1fffabebcee28424:6ae5d04e46af742770a0588e8d06e052$</string>
+            <key>textureFileName</key>
+            <string>cashBox.png</string>
+        </dict>
+    </dict>
+</plist>

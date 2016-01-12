@@ -1,0 +1,16 @@
+Music_bg  = "MP3/bg.mp3"
+Music_congratelationPassLevel = "MP3/congratelationPassLevel.mp3"
+Music_good  = "MP3/good.mp3"
+Music_great  = "MP3/great.mp3"
+Music_heartDown  = "MP3/heartDown.mp3"
+Music_passLevel  = "MP3/passLevel.mp3"
+Music_pop  = "MP3/pop.mp3"
+Music_startGame  = "MP3/startGame.mp3"
+Music_enterButton = "MP3/enterButton.mp3"
+Music_failLevel = "MP3/failLevel.mp3"
+Music_refreshProp = "MP3/refreshProp.mp3"
+Music_bomb = "MP3/bomb.mp3"
+Music_fireworks   = "MP3/fireworks.mp3"
+Music_getReward   = "MP3/getReward.mp3"
+
+Music_list_special = {Music_good,Music_great,Music_good,Music_great}

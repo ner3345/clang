@@ -1,0 +1,112 @@
+
+{
+	gl.supports_vertex_array_object: true
+	cocos2d.x.version: quick-cocos2d-x 3.3
+	gl.vendor: Intel Inc.
+	gl.supports_PVRTC: false
+	gl.renderer: Intel HD Graphics 5000 OpenGL Engine
+	cocos2d.x.compiled_with_profiler: false
+	gl.max_texture_size: 16384
+	gl.supports_ETC1: false
+	gl.supports_BGRA8888: false
+	cocos2d.x.build_type: DEBUG
+	gl.supports_discard_framebuffer: false
+	gl.supports_NPOT: true
+	gl.supports_S3TC: true
+	gl.version: 2.1 INTEL-10.12.13
+	gl.supports_ATITC: false
+	gl.max_texture_units: 16
+	cocos2d.x.compiled_with_gl_state_cache: true
+}
+
+
+Quick-Cocos2d-x C++ support ready.
+------------------------------------------------
+LOAD LUA FILE: /quick3/diamondios/src/main.lua
+------------------------------------------------
+[LUA-print] ===========================================================
+[LUA-print]               LOAD QUICK FRAMEWORK
+[LUA-print] ===========================================================
+[LUA-print] [INFO] 
+[LUA-print] [INFO] # DEBUG                        = 1
+[LUA-print] [INFO] #
+[LUA-print] [INFO] # device.platform              = mac
+[LUA-print] [INFO] # device.model                 = unknown
+[LUA-print] [INFO] # device.language              = cn
+[LUA-print] [INFO] # device.writablePath          = /quick3/diamondios/
+[LUA-print] [INFO] # device.directorySeparator    = /
+[LUA-print] [INFO] # device.pathSeparator         = :
+[LUA-print] [INFO] #
+libpng warning: iCCP: known incorrect sRGB profile
+[LUA-print] [INFO] # CONFIG_SCREEN_AUTOSCALE      = FIXED_WIDTH
+[LUA-print] [INFO] # CONFIG_SCREEN_WIDTH          = 720.00
+[LUA-print] [INFO] # CONFIG_SCREEN_HEIGHT         = 1278.00
+[LUA-print] [INFO] # display.widthInPixels        = 640.00
+[LUA-print] [INFO] # display.heightInPixels       = 1136.00
+[LUA-print] [INFO] # display.contentScaleFactor   = 0.89
+[LUA-print] [INFO] # display.width                = 720.00
+[LUA-print] [INFO] # display.height               = 1278.00
+[LUA-print] [INFO] # display.cx                   = 360.00
+[LUA-print] [INFO] # display.cy                   = 639.00
+[LUA-print] [INFO] # display.left                 = 0.00
+[LUA-print] [INFO] # display.right                = 720.00
+[LUA-print] [INFO] # display.top                  = 1278.00
+[LUA-print] [INFO] # display.bottom               = 0.00
+[LUA-print] [INFO] # display.c_left               = -360.00
+[LUA-print] [INFO] # display.c_right              = 360.00
+[LUA-print] [INFO] # display.c_top                = 639.00
+[LUA-print] [INFO] # display.c_bottom             = -639.00
+[LUA-print] [INFO] #
+[LUA-print] [ERR] framework.cc.sdk.Store - cc.Store not exists.
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/sdk/Store.lua"]:6: in function 'checkCCStore'
+	[string "framework/cc/sdk/Store.lua"]:13: in function 'init'
+	[string "app/SDK/MobileMM.lua"]:10: in function 'init'
+	[string "app/scenes/LoginScene.lua"]:64: in function 'ctor'
+	[string "framework/functions.lua"]:315: in function 'new'
+	[string "framework/cc/mvc/AppBase.lua"]:40: in function 'enterScene'
+	[string "app/MyApp.lua"]:17: in function 'run'
+	[string "/quick3/diamondios/src/main.lua"]:11: in main chunk
+[LUA-print] [ERR] framework.cc.sdk.Store - cc.Store not exists.
+[LUA-print] 
+stack traceback:
+	[string "framework/cc/sdk/Store.lua"]:6: in function 'checkCCStore'
+	[string "framework/cc/sdk/Store.lua"]:70: in function 'loadProducts'
+	[string "app/SDK/MobileMM.lua"]:16: in function 'init'
+	[string "app/scenes/LoginScene.lua"]:64: in function 'ctor'
+	[string "framework/functions.lua"]:315: in function 'new'
+	[string "framework/cc/mvc/AppBase.lua"]:40: in function 'enterScene'
+	[string "app/MyApp.lua"]:17: in function 'run'
+	[string "/quick3/diamondios/src/main.lua"]:11: in main chunk
+[LUA-print] ERROR REQUEST - getErrorCode() = 0, getErrorMessage() = 
+[LUA-print] REQUEST - getResponseStatusCode() = 200
+[LUA-print] REQUEST - getResponseDataLength() = 377
+[LUA-print] dump from: [string "app/scenes/LoginScene.lua"]:121: in function 'callbcak'
+[LUA-print] - "<var>" = {
+[LUA-print] -     "code" = 1
+[LUA-print] -     "data" = {
+[LUA-print] -         "bomb"       = "0"
+[LUA-print] -         "cent"       = 0
+[LUA-print] -         "channel"    = "diamondios"
+[LUA-print] -         "diamond"    = "0"
+[LUA-print] -         "follow"     = 1
+[LUA-print] -         "integral"   = "0"
+[LUA-print] -         "is_reward"  = 0
+[LUA-print] -         "levels"     = "0"
+[LUA-print] -         "login_day"  = "0"
+[LUA-print] -         "mactived"   = 1451471712
+[LUA-print] -         "magic"      = "0"
+[LUA-print] -         "mcreated"   = "1451113684"
+[LUA-print] -         "mid"        = "1142321"
+[LUA-print] -         "mm3_cent"   = 0
+[LUA-print] -         "nickname"   = "1451113684"
+[LUA-print] -         "notice"     = 1
+[LUA-print] -         "pic_notice" = 0
+[LUA-print] -         "refresh"    = "0"
+[LUA-print] -         "sex"        = "0"
+[LUA-print] -         "status"     = "login"
+[LUA-print] -         "username"   = "86456f566511a63bc166ab86e3c6236fe40e7c76"
+[LUA-print] -     }
+[LUA-print] - }
+libpng warning: iCCP: known incorrect sRGB profile
